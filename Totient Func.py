@@ -35,6 +35,7 @@ def totient():
         p = p + 1
 
     return T
+    print("φ(" + str(x) + ") = " + str(T))
 
 totient()
 
